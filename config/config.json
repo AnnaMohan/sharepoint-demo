@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/share/ShareWebPart.js",
+          "manifest": "./src/webparts/share/ShareWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ShareWebPartStrings": "lib/webparts/share/loc/{locale}.js"
+  }
+}
